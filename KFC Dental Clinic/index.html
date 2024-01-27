@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KFC Dental Clinic</title>
+    <link rel="stylesheet" href="style.css">
+    <link class="icon" rel="icon" href="kfc-logo.png">
+    <script src="https://kit.fontawesome.com/bb02d24289.js" crossorigin="anonymous"></script>
+</head>
+<body>
+      <div class="loader">
+        <span class="loader-text">loading</span>
+          <span class="load"></span>
+      </div>
+<div id="content" style="display: none;">
+  <header class="navbar">
+    <a href="#home"><img src="KFC-Dental-logo-removebg-preview.png" alt="KFC Dental Clinic" class="dental-logo"></a>
+    
+    <input type="checkbox" id="check">
+    <label for="check" class="check-btn">
+        <i class="fa-solid fa-bars"></i>
+    </label>
+    
+    <ul class="menu">   
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about-id">About Us</a></li>
+        <li><a href="#service">Services</a>
+            <ul class="dropdown">
+                <li><a href="#service1">GENERAL DENTISTRY</a></li>
+                <li><a href="#service2">ENDODONTICS</a></li>
+                <li><a href="#service3">PROSTHODONTICS</a></li>
+                <li><a href="#service4">ORTHODONTICS</a></li>
+                <li><a href="#service5">PEDIATRIC DENTISTRY</a></li>
+                <li><a href="#service6">AESTHETIC DENTISTRY</a></li>
+                <li><a href="#service7">MINOR ORAL SURGERY</a></li>
+                <li><a href="#service8">DIAGNOSTIC SERVICES</a></li>
+            </ul>
+        </li>
+        <li><a href="#schedule">SCHEDULE</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#faqs">FAQ's</a></li>
+    </ul>
+
+</header>
+
+<main class="home-page" id="home">
+
+    <div class="text-container">
+        <h1>KFC Dental <br> <span>Clinic</span></h1>
+        <br>
+        <p>Our clinic is dedicated to provide you with the highest standard of quality dental care services that are tailored to meet your needs and comfort.</p>
+        <br>
+        <a href="#appointment" class="btn-book">Book an Appointment</a>
+        <br>
+        <br>
+    </div>
+
+    <div class="image-container">
+        <img id="dental-bg" src="kfc-logo.jpg" alt="">
+    </div>
+
+</main>
+  
+<main class="about-page" id="about">
+    <section class="about-us" id="about">
+        <div class="bg-color-about">
+          <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#7b139b" fill-opacity="1" d="M0,32L80,58.7C160,85,320,139,480,144C640,149,800,107,960,90.7C1120,75,1280,85,1360,90.7L1440,96L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
+        <div class="about-section">
+            
+          <h1 id="about-id">About Us</h1>
+          <p>We offer various dental services from the most basic ones like cleaning to more advanced dental care and practice including orthodontics, pediatric dentistry and special care dentistry, cosmetic dentistry and surgery.
+          </p> 
+        </div>
+        <div class="row">
+          <div class="column">
+            <div class="card">
+              <img src="icons8-mission-50.png" alt="mission">
+              <div class="container">
+                <h2>Mission</h2>
+                <p>Dedicated to excellence, our dental service ensures clients receive optimal care and education, upholding the highest standards in oral healthcare.
+                </p>
+              </div>
+            </div>
+          </div>
+        
+          <div class="column">
+            <div class="card">
+              <img src="icons8-vision-50.png" alt="mission-image">
+              <div class="container">
+                <h2>Vision</h2>
+                <p> Embracing the digital landscape allows us to extend our reach beyond geographical boundaries, making our expertise and services accessible to a broader audience. 
+                </p>
+              </div>
+            </div>
+          </div>  
+        </div>
+      </div>
+      </section>
+</main>
+
+<section class="services-section" id="service">
+    <div class="services-container">
+      <h1>Services We Offer</h1>
+      <div class="service-row">
+        
+                                                              <!------SERVICE 1-------->
+
+        <div class="service one" id="service1">
+          <i class="fa-solid fa-tooth"></i>
+          <h2>GENERAL DENTISTRY</h2>
+          <p>provides a wide spectrum of services, including check-ups, cleanings, and treatments, to ensure oral health and address common dental issues for patients of all ages</p>
+         <button  onclick="toggleServiceOne()">Services</button>
+        </div>
+
+        <!--Services inside GENERAL DENTISTRY service---->
+        
+        <div class="service-detailsOne" id="details1">
+          <div class="detail-container">
+           <div class="detail">
+              <h2 class="title">1. Oral Prophylaxis / Cleaning</h2>
+              <p>Oral prophylaxis is both a preventive measure and a treatment procedure. It involves the complete cleaning of teeth, in order to remove all the remains from foods, plaque, tartar, dead cells, and more.</p>
+              <a href="#appointment"><button class="btn_services">Get this Service</button></a>
+           </div>
+           <div class=" detail">
+            <h2 class="title">2. Tooth Restoration / Pasta</h2>
+            <p>When the damage of the teeth reaches an irreparable state, Tooth Filling or what is commonly known as Dental Pasta is performed to restore proper function and structure. It is a procedure which removes the decayed part of the tooth and fills it with a dental restorative material.</p>
+            <a href="#appointment"><button class="btn_services">Get this Service</button></a>
+         </div>
+         <div class="detail">
+          <h2 class="title">3. Tooth Extraction / Bunot</h2>
+          <p>Tooth extraction, or "pag-bunot ng ipin" is the removal of a tooth from its socket in the bone. If you are facing a tooth extraction, it can seem a little daunting and nerve-wracking.</p>
+          <a href="#appointment"><button class="btn_services">Get this Service</button></a>
+       </div>
+       <div class="detail">
+        <h2 class="title">4. Oral Rehabilitation</h2>
+        <p>The treatments can include onlays, crowns, bridges, veneers, dental implants, and/or dentures that will essentially provide not only a "smile makeover", but improved chewing efficiency for the patient. In some patients, other specialties will orthodontics may also be employed to facilitate the best possible outcome.</p>
+        <a href="#appointment"><button class="btn_services">Get this Service</button></a>
+        </div>
+        </div>
+      </div>
+          
+
+                                                                      <!------SERVICE 2-------->
+
+        <div class="service two" id="service2">
+          <i class="fa-solid fa-tooth"></i>
+          <h2>ENDODONTICS</h2>
+          <p> 
+            focuses on diagnosing and treating issues within the tooth's pulp, often through root canal therapy, to preserve natural teeth and alleviate pain or infection.
+          </p>
+          <button onclick="toggleServiceTwo()">Services</button>
+        </div>
+
+         <!--Services inside ENDODONTICS service---->
+        <div class="service-detailsTwo" id="details2">
+          <div class="detail-container">
+           <div class="detail">
+              <h2 class="title">1. Root Canal Therapy</h2>
+              <p>Root canal treatment is a treatment sequence for the infected pulp of a tooth which is intended to result in the elimination of infection and the protection of the decontaminated tooth from future microbial invasion.</p>
+              <a href="#appointment"><button class="btn_services">Get this Service</button></a>
+           </div>            
+        </div>
+      </div>
+
+                
+                                                              <!------SERVICE 3-------->
+
+        <div class="service three" id="service3">
+          <i class="fa-solid fa-tooth"></i>
+          <h2>PROSTHODONTICS</h2>
+          <p> dedicated to designing, creating, and fitting dental prosthetics, such as dentures and implants, to restore and enhance oral function and aesthetics.</p>
+          <button onclick="toggleServiceThree()">Services</button>
+        </div>
+
+         <!--Services inside PROSTHODONTICS service---->
+        <div class="service-detailsThree" id="details3">
+          <div class="detail-container">
+           <div class="detail">
+              <h2 class="title">1. Complete Dentures</h2>
+              <p>A complete denture is a removable appliance used when all teeth within a jaw have been lost and need to be prosthetically replaced. In contrast to a partial denture, a complete denture is constructed when there are no more teeth left in an arch, hence it is an exclusively tissue-supported prosthesis.
+              </p>
+              <a href="#appointment"><button class="btn_services">Get this Service</button></a>
+           </div>   
+           <div class="detail">
+            <h2 class="title">2. Partial Dentures</h2>
+            <p>A removable partial denture is a denture for a partially edentulous patient who desires to have replacement teeth for functional or aesthetic reasons and who cannot have a bridge for any reason, such as a lack of required teeth to serve as support for a bridge or financial limitations.
+            </p>
+            <a href="#appointment"><button class="btn_services">Get this Service</button></a>
+           </div> 
+            <div class="detail">
+            <h2 class="title">3. Jacket Crowns</h2>
+            <p>In dentistry, a crown or a dental cap is a type of dental restoration that completely caps or encircles a tooth or dental implant. A crown may be needed when a large dental cavity threatens the health of a tooth. A crown is typically bonded to the tooth by dental cement.
+            </p>
+            <a href="#appointment"><button class="btn_services">Get this Service</button></a>
+        </div> 
+        <div class="detail">
+        <h2 class="title">4. Fixed Bridge</h2>
+        <p>A fixed bridge, which is sometimes referred to as a traditional dental bridge or a fixed partial denture, is not removable. Rather, it has crowns that are permanently attached to the teeth adjacent to the empty space in your mouth (the abutment teeth).
+        </p>
+        <a href="#appointment"><button class="btn_services">Get this Service</button></a>
+       </div>          
+      </div>
+      </div>
+        
+         
+                                                      <!------SERVICE 4-------->
+
+        <div class="service four" id="service4">
+          <i class="fa-solid fa-tooth"></i>
+          <h2>ORTHODONTICS</h2>
+          <p>addressing misalignments and irregularities of teeth and jaws, using devices like braces to improve function and enhance the aesthetic appearance of the smile.</p>
+          <button  onclick="toggleServiceFour()">Services</button>
+        </div>
+             <!--Services inside ORTHODONTICS service---->
+
+            <div class="service-detailsFour" id="details4">
+             <div class="detail-container">
+                  <div class="detail">
+                      <h2 class="title">1. Braces (Metal, Ceramic, Self-ligating)</h2>
+                      <p>Dental braces are devices used in orthodontics that align and straighten teeth and help position them with regard to a person's bite, while also aiming to improve dental health.
+                      </p>
+                      <a href="#appointment"><button class="btn_services">Get this Service</button></a>
+                  </div>
+                  <div class="detail">
+                    <h2 class="title">2. Retainers</h2>
+                    <p>Orthodontic retainers are custom-made devices, usually made of wires or clear plastic, that hold teeth in position after surgery or any method of realigning teeth.
+                    </p>
+                    <a href="#appointment"><button class="btn_services">Get this Service</button></a>
+                </div>
+                <div class="detail">
+                  <h2 class="title">3. Mouth Guard</h2>
+                  <p>A mouthguard is a protective device for the mouth that covers the teeth and gums to prevent and reduce injury to the teeth, arches, lips and gums. An effective mouthguard is like a crash helmet for teeth and jaws.
+                  </p>
+                  <a href="#appointment"><button class="btn_services">Get this Service</button></a>
+                </div>
+               </div>
+             </div>
+
+        
+                                                          <!------SERVICE 5-------->
+
+
+        <div class="service five" id="service5">
+          <i class="fa-solid fa-tooth"></i>
+          <h2>PEDIATRIC DENTISTRY</h2>
+          <p>
+            providing specialized dental care to children, emphasizing preventive measures and age-appropriate treatments to promote lifelong oral health habits.</p>
+          <button  onclick="toggleServiceFive()">Services</button>
+        </div>
+         <!--Services inside PEDIATRIC DENTISTRY service---->
+
+         <div class="service-detailsFive" id="details5">
+          <div class="detail-container">
+               <div class="detail">
+                   <h2 class="title">1. Oral Prophylaxis</h2>
+                   <p>Dental antibiotic prophylaxis is the administration of antibiotics to a dental patient for prevention of harmful consequences of bacteremia, that may be caused by invasion of the oral flora into an injured gingival or peri-apical vessel during dental treatment.
+                   </p>
+                   <a href="#appointment"><button class="btn_services">Get this Service</button></a>
+               </div>
+               <div class="detail">
+                 <h2 class="title">2. Fluoride Application</h2>
+                 <p>Fluoride varnish is a highly concentrated form of fluoride which is applied to the tooth's surface, by a dentist, dental hygienist or other health care professional, as a type of topical fluoride therapy.
+                 </p>
+                 <a href="#appointment"><button class="btn_services">Get this Service</button></a>
+             </div>
+             <div class="detail">
+               <h2 class="title">3. Pit and Fissure Sealant</h2>
+               <p>A sealant is a clear or opaque plastic material that is applied to the pits and fissures of teeth where decay occurs most often. The purpose of the sealant is to provide a physical barrier to occlude pits and fissures and to protect them from bacteria and food.
+               </p>
+               <a href="#appointment"><button class="btn_services">Get this Service</button></a>
+             </div>
+             <div class="detail">
+              <h2 class="title">4. Extraction</h2>
+              <p>>A tooth extraction is a procedure to remove a tooth from the gum socket. It is usually done by a general dentist, an oral surgeon, or a periodontist. The appearance of normal teeth varies, especially the molars.
+              </p>
+              <a href="#appointment"><button class="btn_services">Get this Service</button></a>
+            </div>
+            <div class="detail">
+              <h2 class="title">5. Space Maintainer</h2>
+              <p>A space maintainer is a dental device used in pediatric dentistry. It helps children avoid the negative side effects of premature loss of their baby teeth.
+              </p>
+              <a href="#appointment"><button class="btn_services">Get this Service</button></a>
+            </div>
+            <div class="detail">
+              <h2 class="title">6. Stainless Steel Crowns</h2>
+              <p>Stainless steel crowns (SSCs) are metal crowns made of stainless steel, nickel and chrome. They are used to restore back teeth (molars) that are decayed, broken down and / or which never formed correctly in the first place.
+              </p>
+              <a href="#appointment"><button class="btn_services">Get this Service</button></a>
+            </div>
+            <div class="detail">
+              <h2 class="title">7. Strip Off Crowns</h2>
+              <p>Strip crowns consist of transparent plastic-like shells that are filled with composite material and fitted over damaged teeth. After the material is cured, the plastic shell is removed.
+              </p>
+              <a href="#appointment"><button class="btn_services">Get this Service</button></a>
+            </div>
+            <div class="detail">
+              <h2 class="title">8. Oral Rehabilitation</h2>
+              <p>Usually, dentists think of an oral rehabilitation as meaning restoration of all of the teeth in a given mouth. However, when only the defective teeth in any mouth are restored, that too could be defined as an oral rehabilitation.
+              </p>
+              <a href="#appointment"><button class="btn_services">Get this Service</button></a>
+            </div>
+            </div>
+          </div>
+
+        
+                                                         <!------SERVICE 6-------->
+
+        <div class="service six" id="service6">
+          <i class="fa-solid fa-tooth"></i>
+          <h2>AESTHETIC DENTISTRY</h2>
+          <p>
+            improves smiles with cosmetic procedures like whitening, veneers, and contouring, enhancing aesthetics and boosting self-confidence.</p>
+         <button  onclick="toggleServiceSix()">Services</button>
+        </div>
+
+         <!--Services inside AESTHETIC DENTISTRY service---->
+
+         <div class="service-detailsSix" id="details6">
+          <div class="detail-container">
+               <div class="detail">
+                   <h2 class="title">1. Teeth Whitening</h2>
+                   <p>Tooth whitening or tooth bleaching is the process of lightening the color of human teeth. Whitening is often desirable when teeth become yellowed over time for a number of reasons, and can be achieved by changing the intrinsic or extrinsic color of the tooth enamel.
+                   </p>
+                   <a href="#appointment"><button class="btn_services">Get this Service</button></a>
+               </div>
+               <div class="detail">
+                 <h2 class="title">2. Veneers</h2>
+                 <p>In dentistry, a veneer is a layer of material placed over a tooth. Veneers can improve the aesthetics and function of a smile and protect the tooth's surface from damage. There are two main types of material used to fabricate a veneer: composite and dental porcelain.
+                 </p>
+                 <a href="#appointment"><button class="btn_services">Get this Service</button></a>
+             </div>
+             <div class="detail">
+               <h2 class="title">3. Stain Removal</h2>
+               <p>Stain removal is the process of removing a mark or spot left by one substance on a specific surface like a fabric. A solvent or detergent is generally used to conduct stain removal and many of these are available over the counter.
+               </p>
+               <a href="#appointment"><button class="btn_services">Get this Service</button></a>
+             </div>
+            </div>
+          </div>
+                                                               <!------SERVICE 7-------->
+
+        <div class="service seven" id="service7">
+          <i class="fa-solid fa-tooth"></i>
+          <h2>MINOR ORAL SURGERY</h2>
+          <p>simple surgical procedures within the oral cavity, often performed in a dental office, addressing issues like tooth extractions or small tissue interventions.
+          </p>
+          <button  onclick="toggleServiceSeven()">Services</button>
+        </div>
+         <!--Services inside AESTHETIC DENTISTRY service---->
+
+         <div class="service-detailsSeven" id="details7">
+          <div class="detail-container">
+               <div class="detail">
+                   <h2 class="title">1. Impacted Tooth Removal</h2>
+                   <p>Impacted wisdom teeth that are causing pain or other dental problems are usually surgically removed (extracted). Extraction of a wisdom tooth is usually required for: Infection or gum disease (periodontal disease) involving the wisdom teeth. 
+                   </p>
+                   <a href="#appointment"><button class="btn_services">Get this Service</button></a>
+               </div>
+               <div class="detail">
+                 <h2 class="title">2. Gum Contouring</h2>
+                 <p>Gum contouring removes excess tissue and reshapes your gum line. Dentists use this procedure to treat uneven or “gummy smiles” (when you have extra gum tissue that covers parts of your teeth).
+                 </p>
+                 <a href="#appointment"><button class="btn_services">Get this Service</button></a>
+             </div>
+             <div class="detail">
+               <h2 class="title">3. Frenectomy</h2>
+               <p>A frenectomy is the removal of a frenulum, a small fold of tissue that prevents an organ in the body from moving too far. It can refer to frenula in several places on the human body. It is related to frenuloplasty, a surgical alteration in a frenulum.
+               </p>
+               <a href="#appointment"><button class="btn_services">Get this Service</button></a>
+             </div>
+            </div>
+          </div>
+
+        
+                                                    <!------SERVICE 8-------->
+        <div class="service eight" id="service8">
+          <i class="fa-solid fa-tooth"></i>
+          <h2>DIAGNOSTIC SURGERY</h2>
+          <p>
+            procedures aimed at obtaining tissue samples or visual insights to identify or confirm a medical condition through surgical intervention for accurate diagnosis.
+          </p>
+          <button  onclick="toggleServiceEight()">Services</button>
+          </div>
+           <!--Services inside DIAGNOSTIC SURGERY service---->
+
+         <div class="service-detailsEight" id="details8">
+          <div class="detail-container">
+               <div class="detail">
+                   <h2 class="title">1. Digital Periapical</h2>
+                   <p>A periapical X-ray shows your entire tooth, from the crown to the root tip. This type of X-ray helps your dentist detect decay, gum disease, bone loss and any other abnormalities of your tooth or surrounding bone.
+                   </p>
+                   <a href="#appointment"><button class="btn_services">Get this Service</button></a>
+               </div>
+               <div class="detail">
+                 <h2 class="title">2. Panoramic X-rays</h2>
+                 <p>A panoramic radiograph is a panoramic scanning dental X-ray of the upper and lower jaw. It shows a two-dimensional view of a half-circle from ear to ear. This service only available on OPD Dental.
+                 </p>
+                 <a href="#appointment"><button class="btn_services">Get this Service</button></a>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<main class="schedule-page" id="schedule">
+    <div class="wrapper">
+        <h1>GET TO KNOW</h1>
+        <h2>ABOUT OUR SCHEDULE</h2>
+
+    <br>
+
+        <P class="schedule-text">Dr. Kathrina Beatrice Fajardo-Cristobal's Dental Clinic or KFC Dental Clinic, we are dedicated to provide comprehensive dental services to our patients. Here's some additional information about our schedule</P>
+
+    </div>
+
+    <br>
+    <br>
+    
+        <div class="schedule-wrapper">
+            <div class="clinic-schedule">
+                <div class="wrap-2">
+                    <h3>ROOM 1 - OPD DENTAL, CENTRO MEDICO DE SANTISIMO ROSARIO, ROMAN SUPERHIGHWAY, TENEJERO, BALANGA, BATAAN </h3>
+
+                    <p><b>Clinic Schedule:</b></p>
+
+                    <p>Open Monday - Wednesday <br> At 9AM - 4PM</p>
+                </div>
+            </div>
+
+            <div class="clinic-schedule">
+                <div class="wrap-2">
+                    
+                    <h3>KFC Dental Clinic - LAKANDULA ST., POBLACION, MARIVELES, BATAAN</h3>
+
+                    <div class="sched-2">
+                        <p><b>Clinic Schedule:</b></p>
+
+                        <p>Open Thursday - Saturday <br> At 9AM - 4PM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</main>
+
+<main class="appointment-page" id="appointment">
+
+    <div class="appointment-form">
+        <div class="title">Book An Appointment &nbsp; <span class="required-field">* Indicate required field</span></div>
+    
+        <form action="connect.php" method="post" id="myForm" onsubmit="return validateForm()">
+            <div class="user-detail">
+                <div class="input-box">
+                    <span class="details">First Name*</span>
+                    <input type="text" id="firstName" name="fname" autocapitalize="" required>
+                </div>
+
+                <div class="input-box">
+                    <span class="details">Last Name*</span>
+                    <input type="text" id="lastName" name="lname" autocapitalize="" required>
+                </div>
+
+                <div class="input-box">
+                    <span class="details">Phone*</span>
+                    <input type="tel" id="phoneNum" name="phoneNumber" required>
+                </div>
+
+                <div class="input-box">
+                    <span class="details">Email*</span>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="input-box">
+                    <span class="details">Preferred Date*</span>
+                    <input type="date" id="preferredDate" name="pref-date" required>
+                </div>
+
+                <div class="input-box">
+                    <span class="details">Preferred Time*</span>
+                    <select name="time" id="preferredTime">
+                        <option value="00:00"></option>
+                        <option value="09:00 AM">09:00 AM</option>
+                        <option value="10:00 AM">10:00 AM</option>
+                        <option value="11:00 AM">11:00 AM</option>
+                        <option value="12:00 PM">12:00 PM</option>
+                        <option value="01:00 PM">01:00 PM</option>
+                        <option value="02:00 PM">02:00 PM</option>
+                        <option value="03:00 PM">03:00 PM</option>
+                        <option value="04:00 PM">04:00 PM</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="user-detail2">
+                <div class="input-box">
+                    <span class="details">Preferred Branch*</span>
+
+                    <select name="branch" id="Branch" name="branch">
+                        <option value="select"></option>
+                        <option value="KFC DENTAL CLINIC">KFC DENTAL CLINIC</option>
+                        <option value="OPD DENTAL">OPD DENTAL</option>
+                    </select>
+                </div>
+
+                <div class="input-box">
+                    <span class="details">Service Required*</span>
+                
+                    <select name="service" id="select-service" name="service">
+                        <option value="select"></option>
+                        <option value="ORAL PROPHYLAXIS / CLEANING">ORAL PROPHYLAXIS / CLEANING</option>
+                        <option value="TOOTH RESTORATIONS / PASTA">TOOTH RESTORATIONS / PASTA</option>
+                        <option value="TOOTH EXTRACTION / BUNOT">TOOTH EXTRACTION / BUNOT</option>
+                        <option value="ORAL REHABILITATION">ORAL REHABILITATION</option>
+                        <option value="ROOT CANAL">ROOT CANAL</option>
+                        <option value="COMPLETE DENTURES">COMPLETE DENTURES</option>
+                        <option value="PARTIAL DENTURES">PARTIAL DENTURES</option>
+                        <option value="JACKET CROWNS">JACKET CROWNS</option>
+                        <option value="FIXED BRIDGE">FIXED BRIDGE</option>
+                        <option value="BRACE">BRACE (Metal, Ceramic, Self-Ligating)</option>
+                        <option value="RETAINERS">RETAINERS</option>
+                        <option value="MOUTH GUARD">MOUTH GUARD</option>
+                        <option value="ORAL PROPHYLAXIS">ORAL PROPHYLAXIS</option>
+                        <option value="FLUORIDE APPLICATION">FLUORIDE APPLICATION</option>
+                        <option value="PIT AND FISSURE SEALANT">PIT AND FISSURE SEALANT</option>
+                        <option value="EXTRACTION">EXTRACTION</option>
+                        <option value="SPACE MAINTAINER">SPACE MAINTAINER</option>
+                        <option value="STAINLESS STEEL CROWN">STAINLESS STEEL CROWN</option>
+                        <option value="STRIP OFF CROWNS">STRIP OFF CROWNS</option>
+                        <option value="TEETH WHITENING">TEETH WHITENING</option>
+                        <option value="VENEERS">VENEERS</option>
+                        <option value="STAIN REMOVAL">STAIN REMOVAL</option>
+                        <option value="IMPACTED TOOTH REMOVAL">IMPACTED TOOTH REMOVAL</option>
+                        <option value="GUM CONTOURING">GUM CONTOURING</option>
+                        <option value="FRENECTOMY">FRENECTOMY</option>
+                        <option value="DIGITAL PERIAPICAL">DIGITAL PERIAPICAL</option>
+                        <option value="PANORAMIC X-RAY">PANORAMIC X-RAY</option>
+                    </select>
+                </div>
+            </div>
+
+                <div class="input-box">
+                    <input id="submitbtn" type="submit" name="submit" value="SUBMIT">
+                </div>
+        </form>
+    </div>
+</main>
+
+<main class="contact-page" id="contact">
+    
+    <div class="contact-wrapper">
+        <h1>Send us a message</h1>
+        <div class="wrap-p">
+            <p>Let's talk about your dental problems. If you have specific inquiries regarding our services, please don't hesitate to get in touch.</p>
+        </div>
+        <form action="contactdb.php" method="post" id="contactForm">
+            <input type="text" name="full-name" placeholder="Enter your Full Name" required>
+            <input type="email" name="Email" placeholder="Enter your Email address" required>
+            <textarea name="contact-message" id="Message" cols="54" rows="7" placeholder="Enter your Message" required></textarea>
+            <br>
+            <input type="submit" id="contact-submit" name="sub" value="SUBMIT">
+        </form>
+    </div>
+
+    <div class="contact-wrapper2">
+        <h1>Contact Us</h1>
+
+        <div class="first-clinic">
+            <div class="clinic-wrapper">
+                <p><b>OPD DENTAL</b> <br> <br> <i class="fa-solid fa-location-dot fa-xl"></i> Central Medico de Santisimo Rosario, <br> Roman Superhighway, Tenehero, Balanga, Bataan</p>
+
+                <p><b>Phone Number:</b> 09177126798 (Globe)</p>
+            </div>
+            <div class="location"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30878.209196044656!2d120.5070855112337!3d14.668641227164782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3396155430fdb769%3A0x50304a08dbc5697d!2sCentro%20Medico%20De%20Santisimo%20Rosario%20Inc.!5e0!3m2!1sen!2sph!4v1699668776400!5m2!1sen!2sph" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        </div>
+
+         <div class="second-clinic">
+            <div class="clinic-wrapper">
+                <p><b>KFC DENTAL CLINIC</b> <br> <br> <i class="fa-solid fa-location-dot fa-xl"></i> 2nd floor 7/11, Lakandula St. Poblacion, Mariveles, Bataan Philippines</p>
+
+                <p><b>Phone Number:</b> 09177126798 (Globe)</p>
+            </div>
+            <div class="location"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3863.877148967698!2d120.48427118175908!3d14.434242661420962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33961966803733ed%3A0x6046203ee54b4e4a!2sKFC%20Dental%20Clinic!5e0!3m2!1sen!2sph!4v1699194856946!5m2!1sen!2sph" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        </div>
+    </div>
+    
+</main>
+
+<!----FAQ SECTION HERE-->
+<section class="faq-section" id="faqs">
+<div class="faq-accordion">
+  <div class="faq-image">
+    <img src="226-Searching-For-Answers.png" alt="image questioning">
+  </div>
+  <div class="accordion-text">
+    <div class="faq-title">FAQs</div>
+    <br>
+  <ul class="faq-text">
+    <li>
+      <div class="question-arrow">
+        <span class="question">
+          How can I schedule an appointment?
+        </span>
+        <i class="fa-solid fa-chevron-down"></i>
+      </div>
+      <p>To schedule an appointment, you can call our clinic during regular business hours or use our online appointment scheduling system on our website. We'll work with you to find a convenient time for your visit.
+      </p>
+      <span class="line"></span>
+    </li>
+
+    <li>
+      <div class="question-arrow">
+        <span class="question">
+          What should I do if I have a toothache?
+        </span>
+        <i class="fa-solid fa-chevron-down"></i>
+      </div>
+      <p> If you're experiencing a toothache, contact our clinic immediately. We'll prioritize your case and schedule an appointment to address the issue. In the meantime, you can take over-the-counter pain relievers and avoid applying heat or cold directly to the affected area.
+      </p>
+      <span class="line"></span>
+    </li>
+
+    <li>
+      <div class="question-arrow">
+        <span class="question">
+          Do you offer orthodontic services for adults?
+        </span>
+        <i class="fa-solid fa-chevron-down"></i>
+      </div>
+      <p>Yes, we provide orthodontic services for patients of all ages, including adults. Our orthodontic treatments include traditional braces as well as more discreet options like clear aligners.
+      </p>
+      <span class="line"></span>
+    </li>
+
+    <li>
+      <div class="question-arrow">
+        <span class="question">
+          What should I do if I have a dental phobia?
+        </span>
+        <i class="fa-solid fa-chevron-down"></i>
+      </div>
+      <p>If you have dental phobia, please inform our staff when scheduling your appointment. We can discuss strategies to make you more comfortable, such as using sedation dentistry techniques or taking breaks during longer procedures. Open communication helps us create a positive experience for all our patients.
+      </p>
+      <span class="line"></span>
+    </li>
+
+    <li>
+      <div class="question-arrow">
+        <span class="question">
+          How often should I have a dental check-up?
+        </span>
+        <i class="fa-solid fa-chevron-down"></i>
+      </div>
+      <p>We recommend regular dental check-ups every six months. These appointments allow us to monitor your oral health, detect any issues early on, and provide preventive care. However, some patients with specific dental conditions may require more frequent visits, as determined by our dental professionals.</p>
+      <span class="line"></span>
+    </li>
+  </ul>
+  
+  <h3>Have any other questions? please <a href="mailto: kfcdentalclinic@gmail.com ? subject:Queries">email</a> us or send us a message
+    <a href="#contact">here</a> we will be in touch ASAP</h3>
+ 
+</div>
+</div>
+</section>
+<section class="setBook">
+<div class="setBook-container">
+  <div class="set-text">
+    <div class="box"></div>
+    <h1>Book now an Appointment!</h1>
+    <h3>We look forward to welcoming you to  Dr. Kathrina Beatrice Fajardo-Cristobal's Dental Clinic! </h3>
+    <a href="#appointment"><button class="set-Book">SET YOUR SCHEDULE NOW!</button></a>
+    <div class="box2"></div>
+  </div>
+</div>
+</section>
+
+
+
+<footer>
+    <div class="footer-logo">
+        <a href="#home"><img src="KFC-Dental-logo.jpg" alt="KFC Dental Clinic"></a>
+    </div>
+
+    <div class="footer-services">
+
+        <div class="footer-label"><p>SERVICES</p></div>
+    
+        <a href="#service1">GENERAL DENTISTRY</a>
+        <a href="#service2">ENDODONTICS / PASTA</a>
+        <a href="#service3">PROSTHODONTICS</a>
+        <a href="#service4">ORTHODONTICS</a>
+        <a href="#service5">PEDIATRIC DENTISTRY</a>
+        <a href="#service6">AESTETHIC DENTISTRY</a>
+        <a href="#service7">MINOR ORAL SURGERY</a>
+        <a href="#service8">DIAGNOSTIC SERVICES</a>
+    </div>
+
+    <div class="footer-links">
+        <div class="footer-label"><p>QUICK LINKS</p></div>
+
+            <a href="#home" class="active">HOME</a>
+            <a href="#about">ABOUT US</a>
+            <a href="#service">SERVICES</a>
+            <a href="#appointment">BOOK AN APPOINTMENT</a>
+            <a href="#contact">CONTACT</a>
+            <a href="#faqs">FAQs</a>
+    </div>
+
+    <div class="footer-social-media">
+        <div class="footer-label"><p>SOCIAL MEDIA</p></div>
+
+        <div class="social-links">
+            <a href="https://www.facebook.com/kfcdentalclinic"><i class="fa-brands fa-square-facebook fa-xl" id="fb"></i></a> &nbsp;
+            <a href="mailto: kfcdentalclinic@gmail.com ? subject:Appointment"><i class="fa-solid fa-envelope fa-xl" id="email"></i></a>
+        </div>
+    </div>
+</footer>
+
+<div class="footer2">
+    <p>COPYRIGHT &copy; 2023 KFC Dental Clinic | Privacy Policy</p>
+</div>
+
+</div>
+
+<script src="main.js"></script>
+
+</body>
+</html>
